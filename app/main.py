@@ -1,5 +1,5 @@
 def get_human_age(cat_age: int, dog_age: int) -> list:
-    def calculate(age, extra_step):
+    def calculate(age: int, extra_step: int) -> int:
         if age < 15:
             return 0
         if age < 24:
